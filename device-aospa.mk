@@ -13,3 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
