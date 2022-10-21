@@ -16,3 +16,8 @@
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAFrameworksOverlayC10 \
+    AOSPAFrameworksOverlayP10

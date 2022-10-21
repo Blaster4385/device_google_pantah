@@ -1,0 +1,11 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+runtime_resource_overlay {
+    name: "AOSPAFrameworksOverlayC10",
+    theme: "AOSPAFrameworksOverlayC10",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}
