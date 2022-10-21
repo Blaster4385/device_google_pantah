@@ -303,6 +303,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.udfps.als_feed_forward_supported=true \
     persist.vendor.udfps.lhbm_controlled_in_hal_supported=true
 
+#HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlayP10
+
 # Vibrator HAL
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.vibrator.hal.chirp.enabled=1
